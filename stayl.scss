@@ -8,6 +8,7 @@
 
 $primaryColor: (
     primary: #F9F8FD,
+    myxok: #4f4f4f,
 );
 $colors: red, green, blue, yellow, brown, gray, black, white, pink, purple,
   orange, lightblue, lightgray, aqua;
@@ -23,6 +24,7 @@ $buttons: (
   secondary: #35bf35,
   error: red,
   warning: orange,
+
 );
 @each $c, $v in $primaryColor{
    .bg-#{$c}{
@@ -191,7 +193,7 @@ $buttons: (
 }
  .bag{
     background-image: url(./img/Image-00.png);
-    
+
 
   }
 
