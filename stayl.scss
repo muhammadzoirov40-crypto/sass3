@@ -10,8 +10,8 @@ $primaryColor: (
     primary: #F9F8FD,
     myxok: #4f4f4f,
 );
-$colors: red, green, blue, yellow, brown, gray, black, white, pink, purple,
-  orange, lightblue, lightgray, aqua;
+$colors: red, green, blue, yellow, brown, black, white, pink, purple,
+  orange, gray, lightgray, aqua;
 $fonts: 100, 200, 300, 400, 500, 600, 700, 800, 900;
 $displays: flex, grid, inline, block, none;
 $positions: fixed, relative, absolute, sticky;
@@ -100,7 +100,7 @@ $buttons: (
   }
 
   .text-#{$i} {
-    font-size: #{$i * 5}px;
+    font-size: #{$i}px;
   }
 
   .gap-#{$i} {
@@ -263,7 +263,7 @@ $buttons: (
     }
 
     .m-text-#{$i} {
-      font-size: #{$i * 5}px;
+      font-size: #{$i}px;
     }
 
     .m-gap-#{$i} {
@@ -277,7 +277,7 @@ $buttons: (
     }
 
     .m-t-#{$i} {
-      top: #{$i * 10}px;
+      top: #{$i * 100}px ;
     }
     .m-b-#{$i} {
       bottom: #{$i * 10}px;
