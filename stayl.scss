@@ -196,6 +196,9 @@ $buttons: (
 
 
   }
+   body{
+      overflow-x: hidden;
+    }
 
 @media (max-width: 500px) {
   body{
@@ -206,6 +209,9 @@ $buttons: (
 
   }
   @for $i from 1 through 100 {
+    body{
+      overflow-x: hidden;
+    }
     .m-w-#{$i} {
       width: #{$i * 10}px;
     }
